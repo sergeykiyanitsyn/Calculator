@@ -1,0 +1,93 @@
+
+.name{
+  font-family: 'Georgia', cursive;
+  font-size: 33px;
+  text-align: center;
+  display: block;
+  margin: 2rem 0;
+  
+}
+
+.calculator {
+  border: 0px solid black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+}
+
+input {
+    margin: 0.4rem 0;
+    font-size: 22px;
+}
+
+/*Ниже стиль выпадающего меню*/
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: auto 10px auto 10px;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  option:hover {background-color: #66a12b}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+
+
+
+  /* Ниже стиль для Равно*/
+
+  .sub-main{
+    margin:22px;
+  }
+  
+  .button-equally {
+    text-align: center;
+    cursor: pointer;
+    font-size:24px;
+    margin: 0 0 0 0;
+  }
+
+  .result{
+ 
+    margin: auto;
+    display:flex;
+    font-size:24px;
+  }

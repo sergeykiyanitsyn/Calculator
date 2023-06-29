@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    
+
+    <h1 class = "name" > Простейший калькулятор </h1>
+    <div>
+        <label for="tentacles" ></label>
+
+        <div class = "calculator">
+           
+
+            <input type="number" name="a" value = "19">
+
+            <div class="dropdown">
+                <select id = 'action' class="dropbtn">
+                  <option value="">--Выбери действие--</option>
+                  <option id = "fire" value = "multi" > * (умножить) </option>
+                  <option value = "divide" > / (разделить) </option>
+                  <option value = "add" > + (сложить) </option>
+                  <option value = "subtract" > - (отнять) </option>
+                </select>
+            </div>
+
+           <input type="number" name="b" value = "84" >
+
+            <div class="sub-main">
+                <button id = 'equally' class="button-equally">Равно</button>
+            </div>
+
+            <div id="result" class = "result"> Ответ </div>            
+
+        </div>
+        
+        <div>
+          <h2 name = 'results' value = "Тут будут результаты"> Тут будут результаты </h2>
+        </div>
+        
+
+    </div>
+
+    <script src="./calcFirst.js"> </script>
+    
+  </body>
+</html>
